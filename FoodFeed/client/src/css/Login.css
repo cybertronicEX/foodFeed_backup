@@ -1,0 +1,83 @@
+.Login{
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+    justify-content:center;
+    /* margin: 10px; */
+    flex-direction: column;
+    align-items: center;
+    background: url("https://cdn.wallpapersafari.com/94/6/518Ovm.jpg");
+    opacity: 70%;
+}
+
+.login_form{
+    height: 600px;
+    width: 400px;
+    background-color: #9281798c;
+    display: grid;
+    justify-content: center;
+    border-radius: 20px; 
+    padding-top: 10px;
+    margin-bottom: 10px ;
+    font-size: 20px;
+}
+
+.login_input{
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    padding-inline-start: 10px;
+}
+.login_oauth{
+    background-color: brown;
+    height: 200px;
+    width: 100%;
+    justify-content: center;
+    border-radius :20px;
+
+}
+.login_title{
+    font-size: 24px;
+    padding-bottom: 10px;
+    color:white;
+    padding-top: 10px;
+}
+
+.login_button{ 
+    height: 50px;
+    width:100%;
+    border: 0 #601b1b;
+    border-radius:10px ;
+    color: aliceblue;
+    background-color:#601b1b ;;
+}
+
+.login_button:hover{
+    
+    border: 0 aliceblue;
+    border-radius:10px ;
+    color:aliceblue;
+    background-color:rgb(164, 49, 49)
+}
+
+.fgtpwdlink{
+    color:white;
+    background-color: #601b1b;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.fgtpwdlink:hover{
+    background-color: rgb(164, 49, 49);
+}
+
+.forgotpwd{
+    height: 100px;
+    width: 400px;
+    background-color: #9281798c;
+    display: grid;
+    justify-content: center;
+    border-radius: 20px; 
+    padding-top: 10px;
+    margin-bottom: 10px ;
+    font-size: 16px;
+}

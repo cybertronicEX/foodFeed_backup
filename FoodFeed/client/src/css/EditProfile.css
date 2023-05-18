@@ -1,0 +1,46 @@
+.editprofile{
+    height: 80vh;
+    width: 100%;
+}
+
+.editform{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 100%;
+}
+
+.editInput{
+    height: 40px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.editInputbutton{
+    height: 40px;
+    width: 200px;
+    margin-top: 10px;
+    background-color: wheat;
+    color: rgb(142, 14, 14);;
+    border: none;
+}
+.editInputbutton:hover{
+    background-color: rgb(142, 14, 14);
+    color:wheat;
+}
+
+.deleteInputbutton{
+    height: 60px;
+    width: 200px;
+    margin-top: 10px;
+    background-color: rgb(142, 14, 14);
+    color:wheat;
+    border: none;
+}
+
+.deleteInputbutton:hover{
+    background-color: wheat;
+    color:rgb(142, 14, 14);
+}

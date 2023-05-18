@@ -1,0 +1,39 @@
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
+
+.media-scroller{
+    display: grid;
+    grid-auto-flow: column;
+    gap:var(--size-3);
+    grid-auto-columns: 22%;
+    overflow-x: auto;
+    overscroll-behavior: contain;
+}
+
+
+.container{
+    inline-size:min(100% -4rem , 70rem);
+    margin-inline:auto;
+}
+
+
+.flow{
+    display:grid;
+    gap:var(--size-3);
+}
+
+.media-element{
+    padding: var(--size-3);
+    background: var(--surface-2);
+    border-radius: var(--radius-2);
+}
+
+.HomePost_ProfileNav{
+    color: rgb(152, 155, 238);
+}
+
+
+.HomePost_ProfileNav :hover{
+    color: rgb(249, 247, 247);
+    /* font-size: 25px; */
+}
